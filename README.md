@@ -1,30 +1,46 @@
-# Tailwind CSS example
+# :pushpin: Table of Contents
 
-This example is a basic starting point for using [Tailwind CSS](https://tailwindcss.com) with Next.js.
+- [Technologies](#computer-technologies)
+- [Features](#rocket-features)
+- [How to Run](#construction_worker-how-to-run)
+- [Found a bug? Missing a specific feature?](#bug-issues)
 
-## Deploy your own
+# :computer: Technologies
 
-Deploy the example using [Vercel](https://vercel.com):
+This project was made using the follow technologies:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+<ul>
+  <li><a href="https://nodejs.org/en/docs/">NodeJs</a></li>
+  <li><a href="https://nextjs.org/">NextJs</a></li>
+  <li><a href="https://pt-br.reactjs.org/">React</a></li>
+  <li><a href="https://tailwindcss.com/">Tailwind CSS</a></li>
+  <li><a href="https://material-table.com/#/">Material-Table</a></li>
+</ul>
 
-## How to use
+# :rocket: Features
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+- Create, Edit, Update and Delete persons from table
+
+# :construction_worker: How to run
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+# Clone Repository
+$ git clone https://github.com/LuizHAP/nextale-front-test
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+### 💻 Run NextJs Project
 
-## Notes
+```bash
+# Install Dependencies
+$ yarn install or npm install
 
-This example includes the following [PostCSS](https://github.com/postcss/postcss) plugins:
+# Run Aplication
+$ yarn dev or npm run dev
 
-- [tailwindcss](https://tailwindcss.com) - utility-first CSS framework
-- [autoprefixer](https://github.com/postcss/autoprefixer) - plugin to parse CSS and add vendor prefixes to CSS rules using values from [Can I Use](https://caniuse.com).
+```
 
-To control the generated stylesheet's filesize, this example uses Tailwind CSS' [`purge` option](https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css) to remove unused CSS.
+Go to http://localhost:3000/ to see the result.
+
+# :bug: Issues
+
+Feel free to **file a new issue** with a respective title and description on the the [Nextale Dev Test Frontend](https://github.com/LuizHAP/nextale-front-test) repository. If you already found a solution to your problem, **i would love to review your pull request**!
