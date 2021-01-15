@@ -8,6 +8,8 @@
     "commit": "cz"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "material-table": "^1.69.2",
     "next": "latest",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
