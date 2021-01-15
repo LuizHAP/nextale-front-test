@@ -4,10 +4,19 @@ import MaterialTable from 'material-table'
 
 const Home = () => {
   const [columns] = React.useState([
-    { title: 'Nome', field: 'name' },
+    {
+      title: 'Nome',
+      field: 'name',
+      validate: rowData =>
+        rowData?.name === '' ? 'Nome não pode ser vazio' : ''
+    },
     {
       title: 'Sobrenome',
-      field: 'lastname'
+      field: 'lastname',
+      validate: rowData =>
+        rowData?.lastname?.length < 2
+          ? 'Sobrenome deve ter pelo menos 3 caracteres'
+          : ''
     },
     {
       title: 'Idade',
